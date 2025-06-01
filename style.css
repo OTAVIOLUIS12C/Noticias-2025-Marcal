@@ -87,7 +87,27 @@ main {
 
 .primeira-secao{
     margin-bottom: 4rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.75rem;
 } 
+
+.primeira-secao picture{
+    grid-column: 1/3;
+}
+
+.primeira-secao picture img{
+    margin: 0;
+} 
+
+.primeira-secao h1{
+    font-size: 3.5rem;
+} 
+
+.segunda-secao h2{
+    font-size: 2.5rem;
+}
 
 .primeira-secao img{
     width: 100%;
